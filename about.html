@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page - MMQ</title>
+    <link rel="icon" type="image/png"
+        href="https://s3.amazonaws.com/eventtia/event_logos/18916/medium/expvqmxqaej8ib3copy15942077171594207717.png?1594207717">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 12px;
+        }
+
+        .about p {
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+
+        .about h1 {
+            padding: 14px 0 2px 0;
+            color: #c40094;
+        }
+
+        .about h3 {
+            text-align: left;
+            width: 100%;
+            padding: 14px 0 4px 0;
+            color: #c40094;
+        }
+
+        #mainpara {
+            text-align: center;
+            width: 70%;
+        }
+
+        .otherdet {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .otherdet div {
+            width: 30%;
+            height: auto;
+            padding: 10px;
+            margin: 40px;
+            border-radius: 11px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.88);
+            background: rgba(0, 0, 0, 0.17);
+        }
+
+        .last {
+            font-size: 1.2rem;
+        }
+
+        .last p {
+            color: #c40094;
+            text-align: end;
+            font-weight: 600;
+        }
+
+        @media screen and (max-width: 900px) {
+            .about{
+                margin-top: 10rem;
+            }
+            
+            .about p {
+                font-size: 1.05rem;
+            }
+
+            #mainpara {
+                text-align: justify;
+                width: 100%;
+            }
+
+            .otherdet {
+                flex-direction: column;
+            }
+
+            .otherdet div {
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                margin: 15px 0;
+            }
+
+            .last{
+                margin-bottom: 7rem;
+                margin-top: 2rem;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="" class="logo">
+                <img src="https://s3.amazonaws.com/eventtia/event_logos/18916/medium/expvqmxqaej8ib3copy15942077171594207717.png?1594207717"
+                    alt="">
+            </a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+            </nav>
+        </header>
+
+        <div class="about">
+            <h1>Welcome to Mind Maze Quiz!</h1>
+            <p id="mainpara">At Mind Maze Quiz, we aim to provide an engaging and interactive quiz experience tailored to your
+                preferences. Our platform offers a diverse range of quizzes designed to cater to various age groups and
+                areas of interest, we've got something for everyone.</p>
+
+            <div class="otherdet">
+                <div>
+                    <h3>Our Mission:</h3>
+                    <p>We believe that learning and having fun should go hand in hand. Our mission is to create an enjoyable and educational environment where users can explore diverse subjects while having fun. We strive to make your time on our platform both enriching and enjoyable.</p>
+                </div>
+
+                <div>
+                    <h3>How It Works:</h3>
+                    <p>To get started, simply click on button "Start Quiz" and select your age group and choose your area of interest. Once you've made your selections, dive into a world of quizzes curated just for you. Challenge yourself, and expand your knowledge in a fun and interactive way.</p>
+                </div>
+
+
+            </div>
+
+            <div class="last">
+                <div>Thank you for choosing Mind Maze Quiz for your quiz adventure. We hope you enjoy your time
+                    here!
+                </div>
+
+                <p>Happy quizzing!</p>
+            </div>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"
+        href="https://s3.amazonaws.com/eventtia/event_logos/18916/medium/expvqmxqaej8ib3copy15942077171594207717.png?1594207717">
+
+    <title>Mind Maze Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="" class="logo">
+                <img src="https://s3.amazonaws.com/eventtia/event_logos/18916/medium/expvqmxqaej8ib3copy15942077171594207717.png?1594207717"
+                    alt="">
+            </a>
+            <nav class="navbar">
+                <a href="/" class="active">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+
+        <section class="home">
+            <div class="home-content">
+                <h1>Mind Maze Quiz</h1>
+                <ul>
+                    <li>Click on the "Start Quiz" to get next interface.</li>
+                    <li>Select your age group within given options.</li>
+                    <li>Then after select your area of interest within given subjects.</li>
+                    <li>After this get ready to have fun with quiz.</li>
+                    <li>Prevent unnecessary reload of page while answering.</li>
+                </ul>
+
+                <button class="start-btn">Start Quiz</button>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="popup-info">
+        <div class="ageGroup">
+
+            <h2>Select Your Age-group</h2>
+            <div class="isChecked">
+                <div>
+                    <label for="age10_14" class="info">
+                        <input type="radio" name="agegroup" id="age10_14">
+                        10 year to 14year
+                    </label>
+                    <label for="age14_18" class="info">
+                        <input type="radio" name="agegroup" id="age14_18">
+                        14year to 18year
+                    </label>
+                </div>
+
+                <div>
+                    <label for="age18_28" class="info">
+                        <input type="radio" name="agegroup" id="age18_28">
+                        18year to 28year
+                    </label>
+                    <label for="above28" class="info">
+                        <input type="radio" name="agegroup" id="above28">
+                        28year & Above
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="subjects makeit-visibel">
+
+            <h2>Area of Intrest</h2>
+            <div class="subjectRadio">
+                <!-- <label for="age10_1" class="info">
+                    <input type="radio" name="agegroup" id="age10_1">
+                    kjhdfk jkadfh kadjfkj
+                </label>
+                <label for="age14_1" class="info">
+                    <input type="radio" name="agegroup" id="age14_1">
+                    hsjfd kajdg fjkjashdf
+                </label>
+                <label for="age18_2" class="info">
+                    <input type="radio" name="agegroup" id="age18_2">
+                    dajg fguadyfg adhgfja
+                </label>
+                <label for="above2" class="info">
+                    <input type="radio" name="agegroup" id="above2">
+                    hj gfkdhg fhjfdgkahg ka
+                </label> -->
+            </div>
+
+        </div>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <button class="cont-btn">Next</button>
+        </div>
+
+    </div>
+
+    <section class="quiz-section makeit-visibel">
+        <div class="quiz-box">
+            <h1>Mind Maze Quiz</h1>
+            <div class="quiz-header">
+                <span>Attemp All</span>
+                <span class="header-score">Score: 0/5</span>
+            </div>
+
+            <h2 class="question-text"></h2>
+
+            <div class="option-list">
+                <!-- <div class="option">
+                    <span>A. Hypper text markup language</span>
+                </div>
+
+                <div class="option">
+                    <span>B. Hypper text markup language</span>
+                </div>
+
+                <div class="option">
+                    <span>C. Hypper text markup language</span>
+                </div>
+
+                <div class="option">
+                    <span>D. Hypper text markup language</span>
+                </div> -->
+
+            </div>
+
+            <div class="quiz-footer">
+                <span class="question-total">1 of 5 Question</span>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+
+        <div class="result-box active">
+            <h2>Quiz Result!</h2>
+            <div class="percentage-container">
+                <div class="circular-progress">
+                    <span class="progress-value">0%</span>
+                </div>
+
+                <span class="score-text">Your score is 0 out of 5</span>
+            </div>
+
+            <div class="buttons">
+                <button class="tryagain-btn">Try Again</button>
+                <button class="home-btn">Go to Home</button>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <script src="javas.js"></script>
+    <script src="questions.js"></script>
+
+</body>
+
+</html>
