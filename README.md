@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🧑🏻‍💻 Tech Stack
 
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript  
 - **No frameworks or libraries used**
